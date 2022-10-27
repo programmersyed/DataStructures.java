@@ -10,9 +10,9 @@ public class Hashfunctions {
     public static void main(String[] args) {
         Map<Person, Daimond> hashes = new HashMap<>();
         hashes.put(new Person("Jameela"), new Daimond("Africa"));
-        //Record does all of the hardwork if no record then you have to manually override
+        //Record does all the hardworking if no record then you have to manually override
         System.out.println(new Person("Jameela").hashCode());
-        //Without override it is going to think that Jameela is different from the other when in fact they are both the same and give them another hashcode
+        //Without override, it is going to think that Jameela is different from the other when in fact they are both the same and give them another hashcode
     }
     //Lists and Maps are the most important
 }
